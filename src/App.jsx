@@ -93,7 +93,7 @@ const VoiceAgentChat = () => {
       // Start the conversation
       addMessage('system', 'Connecting to agent...');
       await conversation.startSession({
-        agentId: "agent_2101kd5bx850fgna9h0ab6kynh4m?branchId=agtbrch_8701kd5bx8x2eqtt5tqvwwrq9kfw",
+        agentId: "agent_2101kd5bx850fgna9h0ab6kynh4m",
         connectionType: 'webrtc' // or 'websocket'
       });
       
